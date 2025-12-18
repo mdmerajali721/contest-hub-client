@@ -1,14 +1,8 @@
-# Website name - ContestHub
- 
+## Website name -  ContestHub
 
-## Live Website URL
+**Live site URL:** [https://contesthubbd.netlify.app](https://contesthubbd.netlify.app)
 
-**Live Site:** [https://contesthubbd.netlify.app](https://contesthubbd.netlify.app)
-
----
-
-
-## ✨ Key Features
+## Key Features
 
 1. Browse and explore admin‑approved contests without login
 2. Secure contest registration with payment integration (Stripe)
