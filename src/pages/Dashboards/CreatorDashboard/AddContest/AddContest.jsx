@@ -63,7 +63,7 @@ const AddContest = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="p-8 space-y-8 shadow-sm bg-base-100 mx-2 rounded-xl"
       >
-        {/* --- Contest Information --- */}
+        {/* Contest Information */}
         <div className="space-y-6">
           <h3 className="text-2xl text-green-500 font-bold">
             Contest Information
@@ -142,7 +142,7 @@ const AddContest = () => {
           </div>
         </div>
 
-        {/* --- Prizes & Schedule --- */}
+        {/* Prizes & Schedule */}
         <div className="space-y-6">
           <h3 className="pb-2 text-2xl text-green-500 font-bold">
             Prizes & Schedule Timeline
@@ -193,7 +193,7 @@ const AddContest = () => {
           </div>
         </div>
 
-        {/* --- Instructions Task Details --- */}
+        {/* Instructions Task Details */}
         <div className="space-y-2">
           <h3 className="pb-2 text-2xl text-green-500 font-bold">
             Instructions Task Details
@@ -215,7 +215,7 @@ const AddContest = () => {
           )}
         </div>
 
-        {/* --- Form Actions --- */}
+        {/*  Form */}
         <div className="flex justify-end gap-4 pt-4">
           <button
             type="button"

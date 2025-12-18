@@ -18,7 +18,7 @@ const ContestCard = ({ contest, isPopular = false }) => {
     navigate(`/contest/${_id}`);
   };
 
-  // Calculate remaining days
+  // Calculate days
   const deadlineDate = new Date(deadline);
   const today = new Date();
   const diffTime = deadlineDate - today;

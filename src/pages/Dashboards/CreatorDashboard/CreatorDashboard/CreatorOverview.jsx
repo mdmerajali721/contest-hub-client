@@ -8,7 +8,7 @@ const CreatorOverview = () => {
   const { user } = useAuth();
   const axiosSecure = useAxiosSecure();
 
-  // Fetch creator's contests
+  // Fetch contests
   const { data: contests = [], isLoading } = useQuery({
     queryKey: ["creator-overview", user?.email],
     queryFn: async () => {
@@ -21,7 +21,6 @@ const CreatorOverview = () => {
 
   if (isLoading) return <Loader />;
 
-  // Stats
   const totalContests = contests.length;
   const activeContests = contests.filter((c) => !c.winner).length;
   const closedContests = contests.filter((c) => c.winner).length;

@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
+// sample data
 const reviews = [
   {
     name: "Ariana Rahman",

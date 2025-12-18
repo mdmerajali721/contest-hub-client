@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router";
-
-// Import multiple banner images
 import Banner1 from "../..//assets/contest1.jpeg";
 import Banner2 from "../../assets/contest2.jpeg";
 
@@ -13,7 +11,7 @@ const Banner = () => {
 
   const images = [Banner1, Banner2];
 
-  // Slide every 3 seconds
+  // slide every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
@@ -77,7 +75,6 @@ const Banner = () => {
           </button>
         </form>
 
-        {/* Dots Indicator */}
         <div className="flex justify-center mt-6 gap-2">
           {images.map((_, idx) => (
             <div

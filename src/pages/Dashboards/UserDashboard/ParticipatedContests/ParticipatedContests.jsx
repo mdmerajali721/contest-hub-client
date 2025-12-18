@@ -86,10 +86,9 @@ export const ParticipatedContests = () => {
       ? "text-yellow-500"
       : "text-red-500";
 
-  /* Render Loader if fetching */
+  /* Loader if fetching */
   if (loadingParticipated || loadingWins) return <Loader />;
 
-  /* Render JSX */
   return (
     <div className="space-y-8 mt-28 md:mt-12 px-6 mb-6 max-w-6xl mx-auto">
       <title>ContestHub - User Participated Contests</title>

@@ -15,7 +15,7 @@ const ReviewCard = ({ review }) => {
           className="w-16 h-16 rounded-full object-cover ring-2 ring-green-500"
         />
 
-        {/* Name, Role & Rating */}
+        {/* Name & role */}
         <div>
           <h3 className="text-lg font-semibold">{name}</h3>
           <p className="text-sm text-green-600 font-medium">{role}</p>

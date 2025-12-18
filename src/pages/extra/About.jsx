@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Feature Grid */}
+        {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
           <div className="p-6 bg-base-200 rounded-xl shadow-lg hover:shadow-xl transition animate__animated animate__zoomIn">

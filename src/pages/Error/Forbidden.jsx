@@ -7,7 +7,7 @@ export default function Forbidden() {
 
   return (
     <div className="relative flex items-center justify-center min-h-screen overflow-hidden">
-      {/* Main Card */}
+      {/* Card */}
       <div className="relative z-10 px-6 text-center">
         <div className="max-w-lg p-10 mx-auto shadow bg-base-300 backdrop-blur-xl rounded">
           {/* Text */}

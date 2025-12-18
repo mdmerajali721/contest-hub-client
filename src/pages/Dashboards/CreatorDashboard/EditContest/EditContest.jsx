@@ -245,7 +245,7 @@ const EditContest = () => {
           )}
         </div>
 
-        {/* Form Actions */}
+        {/* Form */}
         <div className="flex justify-end gap-4 pt-4">
           <button
             type="button"

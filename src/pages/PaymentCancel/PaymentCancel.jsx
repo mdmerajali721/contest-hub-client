@@ -20,7 +20,7 @@ const PaymentCancel = () => {
         className="relative z-10 w-full max-w-md overflow-hidden border shadow bg-base-100 border-base-200 rounded-md"
       >
         <div className="p-8 text-center">
-          {/* Animated Cancel Icon */}
+          {/* Cancel Icon */}
           <div className="flex items-center justify-center w-20 h-20 mx-auto mb-6 rounded-full bg-base-200">
             <XCircle size={40} className="text-red-500" />
           </div>

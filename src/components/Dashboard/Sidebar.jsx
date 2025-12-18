@@ -10,7 +10,7 @@ import { CgProfile } from "react-icons/cg";
 import { MdLibraryAdd } from "react-icons/md";
 import { GrDocumentUser } from "react-icons/gr";
 
-/* Reusable Menu Item */
+/* Menu Item */
 const MenuItem = forwardRef(
   (
     { icon: Icon, text, isDestructive = false, active = false, onClick },
@@ -44,7 +44,7 @@ const MenuItem = forwardRef(
   )
 );
 
-/* Sidebar Component */
+/* Sidebar Components */
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const location = useLocation();
   const { role } = useRole();

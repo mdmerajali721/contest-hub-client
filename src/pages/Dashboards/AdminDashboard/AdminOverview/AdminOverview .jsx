@@ -45,7 +45,6 @@ const AdminOverview = () => {
   return (
     <div className="p-6 space-y-8 mt-20 md:mt-8">
       <title>ContestHub - Admin Dashboard</title>
-      {/* Metrics */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <MetricCard
           title="Total Users"

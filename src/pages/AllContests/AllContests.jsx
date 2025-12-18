@@ -33,7 +33,7 @@ export default function AllContests() {
     },
   });
 
-  // Filter contests based on searchQuery only
+  // Filter contests search
   const filteredContests = contests.filter((contest) => {
     return (
       contest.name?.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -76,7 +76,7 @@ export default function AllContests() {
         </button>
       </form>
 
-      {/* --- Contest Grid --- */}
+      {/* Contest Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {filteredContests.length > 0 ? (
           filteredContests.map((contest) => (

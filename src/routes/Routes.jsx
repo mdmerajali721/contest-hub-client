@@ -13,19 +13,21 @@ import ContestSubmissions from "../pages/Dashboards/CreatorDashboard/ContestSubm
 import EditContest from "../pages/Dashboards/CreatorDashboard/EditContest/EditContest";
 import ManageContests from "../pages/Dashboards/AdminDashboard/ManageContests/ManageContests";
 import ManageUsers from "../pages/Dashboards/AdminDashboard/ManageUsers/ManageUsers";
-import DashboardLayout from "../Layouts/DashboardLayout";
+// import DashboardLayout from "../Layouts/DashboardLayout";
 import { ParticipatedContests } from "../pages/Dashboards/UserDashboard/ParticipatedContests/ParticipatedContests";
 import { WinningContests } from "../pages/Dashboards/UserDashboard/WinningContests/WinningContests";
 import { UserProfile } from "../pages/Dashboards/UserDashboard/UserProfile/UserProfile";
 import PaymentSuccess from "../pages/PaymentSuccess/PaymentSuccess";
 import PaymentCancel from "../pages/PaymentCancel/PaymentCancel";
-import Leaderboard from "../pages/Leaderboard/Leaderboard";
+// import Leaderboard from "../pages/Leaderboard/Leaderboard";
 import AdminRoute from "./AdminRoute";
 import UserRoute from "./UserRoute";
 import CreatorRoute from "./CreatorRoute";
 import About from "./../pages/extra/About";
 import NotFound from "../pages/Error/NotFound";
 import ForgotPassword from "../pages/Auth/ForgotPassword";
+import Leaderboard from "../pages/leaderboard/Leaderboard";
+import DashboardLayout from "../layouts/DashboardLayout";
 
 export const router = createBrowserRouter([
   {

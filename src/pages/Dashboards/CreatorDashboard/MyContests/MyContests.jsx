@@ -102,7 +102,7 @@ const MyContests = () => {
     return <Loader />;
   }
 
-  // Sort: Pending first, then by latest created (or deadline) descending
+  // Sort: Pending first, then by latest created descending
   const sortedContests = [...contests].sort((a, b) => {
     if (a.status === "Pending" && b.status !== "Pending") return -1;
     if (a.status !== "Pending" && b.status === "Pending") return 1;

@@ -40,7 +40,6 @@ const ContestSubmissions = () => {
     },
   });
 
-  // console.log(contestData);
 
   // Declare Winner Handler
   const handleDeclareWinner = (submission) => {
@@ -50,7 +49,6 @@ const ContestSubmissions = () => {
       email: submission.contestParticipantEmail,
       winningDate: new Date(),
     };
-    // console.log(submission);
 
     Swal.fire({
       title: "Are you sure?",

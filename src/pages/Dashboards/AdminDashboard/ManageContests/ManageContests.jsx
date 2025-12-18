@@ -26,7 +26,7 @@ const ManageContests = () => {
     },
   });
 
-  // Sort contests by newest first
+  // lratest contest firsh
   const sortedContests = [...contests].sort((a, b) => {
     return new Date(b.createdAt) - new Date(a.createdAt);
   });

@@ -3,12 +3,10 @@ import { BsSunFill } from "react-icons/bs";
 import { MdDarkMode } from "react-icons/md";
 
 export default function ThemeToggle() {
-  // Read theme from localStorage immediately on init
   const [theme, setTheme] = useState(
     () => localStorage.getItem("theme") || "light"
   );
 
-  // Apply theme before browser paints
   useLayoutEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);

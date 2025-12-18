@@ -10,7 +10,7 @@ const Header = ({ toggleSidebar }) => {
   const { role } = useRole();
   const location = useLocation();
 
-  // Dynamically set page title based on route
+  // Dynamically set page title
   const getPageTitle = () => {
     const path = location.pathname;
     if (path.includes("participated")) return "My Participated Contests";

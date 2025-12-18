@@ -95,7 +95,7 @@ const PaymentSuccess = () => {
   );
 };
 
-/* InfoCard Component */
+/* Card Component */
 const InfoCard = ({
   icon,
   label,

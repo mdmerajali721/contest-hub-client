@@ -116,7 +116,6 @@ export default function ContestDetails() {
         paymentInfo
       );
 
-      // redirect to stripe checkout
       window.location.href = data.url;
     } catch (error) {
       toast.error("Something went wrong. Please try again.");

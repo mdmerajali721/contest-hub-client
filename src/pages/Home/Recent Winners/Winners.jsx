@@ -1,7 +1,7 @@
 import React from "react";
 import { GiPodiumWinner } from "react-icons/gi";
 
-// Sample winner data (you can fetch from backend)
+// Sample winner data
 const winners = [
   {
     name: "Sabbir Chowdhury",

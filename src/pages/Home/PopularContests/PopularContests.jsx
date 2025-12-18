@@ -25,7 +25,7 @@ export default function PopularContests() {
     return <Loader />;
   }
 
-  // Sort by participants descending
+  // Sort by participants
   const sortedContests = [...contests].sort(
     (a, b) => (b.participants || 0) - (a.participants || 0)
   );

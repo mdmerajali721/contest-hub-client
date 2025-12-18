@@ -50,7 +50,7 @@ const FAQ = () => {
           <div className="mt-6 h-1.5 w-40 mx-auto mb-10 bg-green-500 rounded-full" />
         </div>
 
-        {/* FAQ List */}
+        {/* FAQ Lists */}
         <div className="space-y-4">
           {faqs.map((item, i) => (
             <div
